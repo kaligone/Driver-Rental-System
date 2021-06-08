@@ -1,0 +1,42 @@
+.popup .img1,.popup21 .img1{
+  margin: 0;
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  overflow: hidden;
+  position: absolute;
+  top: 60px;
+  left: calc(22%)
+}
+
+.popup .img2,.popup21 .img2{
+  margin: 0;
+  width: 105px;
+  height: 105px;
+  border-radius: 50%;
+  overflow: hidden;
+  position: absolute;
+  top: 60px;
+  left: calc(65%)
+}
+
+.popup li, .popup21 li{
+  padding: 105px 90px;
+  font-size: 20px;
+  display: inline-block;
+  border: 1px
+}
+
+.popup li a, .popup21 li a{
+  text-decoration: none;
+  font-size: 25px;
+  font-style: bold;
+  font-family:cursive;
+  outline: none;
+  color: green;
+}
+
+.popup li a:hover, popup21 li a:hover{
+  font-family: fantasy;
+  font-size: 30px;
+}

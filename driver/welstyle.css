@@ -1,0 +1,154 @@
+body{
+
+  background: url(back1.jpg);
+  background-size: 2000px 1000px;
+  background-repeat: no-repeat;
+  /*background-position: top;
+  background-repeat: no-repeat
+  background-attachment: fixed;
+*/
+}
+
+.WelcomeTitle h1 {
+  color: white;
+  position:absolute;
+  padding-top: 0;
+  font-size: 60px;
+  letter-spacing: .10em;
+}
+
+/******************logout********************/
+.nav-area {
+  position: relative;
+	float: right;
+	list-style: none;
+  margin-right: 20px;
+}
+
+.nav-area li {
+	display: inline-block;
+  cursor: pointer;
+}
+
+.nav-area li a{
+    color: #fff;
+	text-decoration: none;
+	padding: 10px 20px;
+	font-family: sans-serif;
+	font-size: 18px;
+	text-transform: uppercase;
+}
+
+.nav-area li a:hover {
+	background: #fff;
+	color: #333;
+  pointer: cursor;
+}
+
+.his{
+  color: #fff;
+  background-color: transparent;
+  border: none;
+  text-decoration: none;
+  padding: 10px 20px;
+  font-family: sans-serif;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.his:hover{
+  background: #fff;
+  color: #333;
+  cursor: pointer;
+}
+
+/*********************box1*******************/
+.box1{
+  position: absolute;
+  background: green;
+  top: 350px;
+  left: 200px;
+  border-radius: 5px;
+}
+
+.box1 input[type='submit']{
+  position: absolute;
+  padding-left: 40px;
+  border: none;
+  border-radius: 10px;
+  height: 185px;
+  width: 500px;
+  text-align:left;
+  text-decoration: none;
+  color: white;
+  background: green;
+  font-family: Tahoma, Arial, sans-serif;
+  font-size: 40px;
+}
+
+.icon1{
+  position: absolute;
+  top: -140px;
+  left: 145px;
+  width: 200px;
+}
+
+.box1:hover,.box1 input[type='submit']:hover{
+  font-size: 45px;
+  color: green;
+  width: 530px;
+  background: white;
+  cursor: pointer;
+}
+
+
+/*********************box2*******************/
+.box2{
+  position: absolute;
+  background: green;
+  top: 350px;
+  left: 850px;
+  border-radius: 5px;
+  height: 25%;
+  width: 35%;
+  border-radius: 10px;
+}
+
+.box2 a{
+  position: absolute;
+  padding-top: 70px;
+  padding-left: 35px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  font-family: Tahoma, Arial, sans-serif;
+  font-size: 40px;
+}
+
+.icon2{
+  position: absolute;
+  top: -10px;
+  left: 400px;
+  width: 200px;
+}
+.box2 a:hover,.box2:hover{
+  font-size: 45px;
+  color: green;
+  background: white;
+
+}
+
+
+/********************************************/
+.i1{
+  position: absolute;
+  margin: 0;
+  padding-left: 550px;:
+}
+
+.marq{
+  position: absolute;
+  padding-top: 630px;
+  color: white;
+  font-size: 25px;
+}

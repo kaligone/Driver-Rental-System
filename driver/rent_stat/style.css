@@ -1,0 +1,89 @@
+body{
+
+  background: url(back1.jpg);
+  background-size: 2000px 1000px;
+  background-repeat: no-repeat;
+
+}
+
+.h1{
+  color: white;
+  position: relative;
+  font-family: cursive;
+  font-size: 50px;
+  text-align:center;
+  text-shadow:4px 4px rgba(0,0,0,0.5);
+}
+
+
+.box{
+    position: relative;
+  top: 60px;
+  left: 380px;
+  padding-top: 200px;
+  background: rgba(0,0,0,0.5);
+  background-position: center;
+  border-radius: 10px;
+  height: 220px;
+  width: 50%;
+
+}
+
+
+.box h3 {
+  position: relative;
+  top: -215px;
+  text-align: center;
+  font-size: 30px;
+  color: yellow;
+  text-shadow:4px 4px rgba(0,0,0,0.5);
+}
+
+.box h5 {
+  position: relative;
+  top: -230px;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+  text-shadow:4px 4px rgba(0,0,0,0.5);
+}
+
+.box p{
+  position: relative;
+  top: -250px;
+  font-family: cursive;
+  font-size: 20px;
+  padding-left: 60px;
+  color: white;
+  margin: 10px;
+}
+
+.box h4 {
+  margin-top: 70px;
+  position: relative;
+  top: -280px;
+  text-align: center;
+  font-family:monospace;
+  font-size: 14px;
+  color: yellow;
+}
+
+.back input[type="submit"]
+{
+  text-decoration: none;
+  font-family: cursive;
+  border: 1px solid rgba(0,0,0,.05);
+  background-color: red;
+  color: white;
+  border-radius: 5px;
+  font-size: 25px;
+  padding: 0px 10px;
+  position: relative;
+  top: -430px;
+  left: 700px;
+}
+.back input[type="submit"]:hover{
+  background-color:green;
+  font-size: 30px;
+  cursor: pointer;
+}

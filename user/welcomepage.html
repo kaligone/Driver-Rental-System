@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Drivo-User</title>
+    <link rel="stylesheet" type="text/css" href="ustyle.css">
+  </head>
+  <body>
+
+    <div class="WelcomeTitle">
+      <h1>Welcome to DRIVO </h1>
+    </div>
+
+    <img class="i1" src="anime_car.png">
+
+    <marquee  class="marq" behavior="scroll" direction="left">DRIVO......   Makes trip better......   Rent it out......   Traval haseel free</marquee>
+
+  <div class="nav-area">
+      <ul>
+        <li> <a href="../user/current_rent_stat/current_rent_stat.php">Current Renting Status</a> </li>
+        <li> <form action="welcomepage.php" method="post">  <input class="his" type="submit" name="history" value="HISTORY"></form> </li>
+        <li> <form action="welcomepage.php" method="post">  <input class="his" type="submit" name="logout" value="LOGOUT"></form> </li>
+      </ul>
+  </div>
+
+  </script>
+
+    <div class="box1">
+      <form action="welcomepage.php" method="post">
+        <input type="submit" name="rentd" value="Rent a Driver">
+        <img class="icon1" src="driver_icon.png">
+      </form>
+      <!-- <a href="welcomepage.php">Rent a Driver <img class="icon1" src="driver_icon.png"> </a> -->
+    </div>
+
+    <div class="box2">
+      <a href="driver_list.php">See available Driver <img class="icon2" src="availability1.png"></a>
+    </div>
+
+  </body>
+</html>

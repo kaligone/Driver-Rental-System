@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <title>Drivo-Login</title>
+      <link rel="stylesheet" type="text/css" href="LoginPageStyle.css">
+      <body>
+
+        <div class="loginBox">
+            <img src="login_icon.png" class="login_icon">
+            <h1>Login</h1>
+
+            <form action="driverlogin.php" method="post">
+            <!--username field -->
+              <p>Email</p>
+              <input type="text" name="username" value="" placeholder="Enter Email/Username" required>
+            <!--password field-->
+              <p>Password :</p>
+              <input type="password" name="Password" value="" placeholder="********" required>
+            <!-- login button..-->
+              <br><br><input type="submit" name="login" value="Sign in"><br>
+
+              <br><a href="#">Forgot Password</a><br>
+              <br><a href="#">Don't have account</a>
+            </form>
+
+            <!-- -->
+        </div>
+
+      </body>
+  </head>
+</html>

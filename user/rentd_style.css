@@ -1,0 +1,105 @@
+body{
+
+  background: url(back1.jpg);
+  background-size: 2000px 1000px;
+  background-repeat: no-repeat;
+  /*background-position: top;
+  background-repeat: no-repeat
+  background-attachment: fixed;
+*/
+}
+
+.h1{
+  color: white;
+  position: absolute;
+  margin: 0;
+  font-size: 60px;
+  font-family:monospace;
+}
+
+.form{
+  display: block;
+  /*size*/
+  width: 400px;
+  height: 550px;
+  /*position*/
+  background:rgba(0,0,0,.5);
+  color: #fff;
+  top: 50%;
+  left: 51%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  box-sizing: border-box;
+  /*styles*/
+  border-radius: 10px;
+  padding-left: 40px;
+  padding-top: 10px;
+}
+
+.form input[type='submit']{
+  width: 90%;
+  text-decoration: none;
+  font-family: cursive;
+  border: 1px solid rgba(0,0,0,.05);
+  background-color:crimson;
+  color: white;
+  border-radius: 5px;
+  font-size: 25px;
+  padding: 0px 10px;
+}
+
+.form input[type='submit']:hover{
+  background: green;
+	color: white;
+  border-color: green;
+  text-transform:uppercase;
+  cursor: pointer;
+}
+
+.form p{
+  color: White;
+  font-size: 18px;
+  padding: 0;
+  font-family:cursive;
+}
+
+.form input[type='text']{
+  position: relative;
+  width: 90%;
+  height: 40px;
+  font-size: 15px;
+  margin-bottom: 15px;
+  background: rgba(200, 212, 212, 0.2);
+  color: white;
+}
+
+.op,.date{
+  width: 90%;
+  font-size: 15px;
+  background: rgba(200, 212, 212, 0.2);
+  margin-bottom: 15px;
+  color: white;
+}
+
+::placeholder{
+  color: white;
+}
+
+.img1{
+  position: absolute;
+  padding-left: 870px;
+}
+
+.img2{
+  position: relative;
+  margin: 0;
+  padding-top: 400px;
+}
+
+.ti{
+  margin-bottom: 30px;
+  width: 90%;
+  background:rgba(200, 212, 212, 0.2);
+  color: white;
+  font-size: 15px;
+}

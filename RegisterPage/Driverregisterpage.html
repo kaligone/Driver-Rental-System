@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Register-Drivo</title>
+    <link rel="stylesheet" type="text/css" href="registerstyle.css">
+  </head>
+  <body>
+        <div class="registerbox">
+          <img src="login_icon.png" class="login_icon">
+          <h1>Driver Registration..</h1>
+
+          <form action="driverRegister.php" method="post">
+          <!-- first Name field-->
+          <p>Enter first name </p>
+          <input type="text" name="fname" value="" placeholder="Enter first name" required>
+          <!--last name field-->
+          <p>Enter last name</p>
+          <input type="text" name="lname" value="" placeholder="Enter last name" required>
+          <!--mibil no field-->
+          <p>Mobile No.</p>
+          <input type="text" name="Mno" value="" placeholder="Enter mobile no" required>
+          <!--email id field-->
+          <p>Email id</p>
+          <input type="email" name="email" value="" placeholder="Enter valid email id" required>
+          <!--password field-->
+          <p>Password</p>
+          <input type="password" name="pass" value="" placeholder="Enter pasword" required>
+          <!--confirm password field-->
+          <p>Confirm password</p>
+          <input type="password" name="confirmpass" value="" placeholder="Confirm password" required><br><br>
+
+          <input type="submit" name="register" value="Register"/>
+
+          </form>
+        </div>
+  </body>
+</html>

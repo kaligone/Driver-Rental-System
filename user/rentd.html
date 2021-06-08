@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Drivo-Rent Driver</title>
+    <link rel="stylesheet" type="text/css" href="rentd_style.css">
+  </head>
+  <body>
+    <h1 class="h1">Rent a driver</h1>
+    <img class="img1" src="anime_car.png" alt="">
+    <img class="img2" src="anime_car.png" alt="">
+
+    <div class="form">
+            <form class="" action="rentd.php" method="post">
+                <p>Starting address</p>
+                <input type="text" name="start" value="" placeholder="Enter starting address" required>
+
+                <p>Destination Address</p>
+                <input type="text" name="end" value="" placeholder="Enter destination address" required>
+
+                <p>Date of journey</p>
+                <input class="date" type="date" name="date" value="" required>
+
+                <p>Time period of journey</p>
+                <input class="ti" type="time" name="time_period" value="">
+
+              <!--  <select class="op" name="time_period" required>
+                    <option value="" disabled selected>Choose time period</option>
+                    <option value="1 hours">1 hours</option>
+                    <option value="2 hours">2 hours</option>
+                    <option value="4 hours">4 hours</option>
+                    <option value="8 hours">8 hours</option>
+                    <option value="11 hours">12 hours</option>
+                    <option value="1 day">1 day</option>
+                    <option value="2 day">2 days</option>
+                </select><br><br>
+-->
+                <input type="submit" name="rent" value="RENT">
+
+            </form>
+    </div>
+
+  </body>
+</html>

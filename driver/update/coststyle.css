@@ -1,0 +1,66 @@
+body{
+
+  background: url(back1.jpg);
+  background-size: 2000px 1000px;
+  background-repeat: no-repeat;
+  /*background-position: top;
+  background-repeat: no-repeat
+  background-attachment: fixed;
+*/
+}
+
+
+.h1{
+  color: white;
+  position: relative;
+  font-family: cursive;
+  font-size: 50px;
+  text-align:center;
+  text-shadow:4px 4px rgba(0,0,0,0.5);
+}
+
+.box h3{
+  color: yellow;
+  position: relative;
+  font-family: cursive;
+  font-size: 30px;
+  text-align:center;
+  text-shadow:4px 4px rgba(0,0,0,0.5);
+}
+
+
+.box{
+  position: relative;
+  top: 60px;
+  left: 500px;
+  padding-top: 20px;
+  background: rgba(0,0,0,0.5);
+  background-position: center;
+  border-radius: 10px;
+  height: 250px;
+  width: 35%;
+}
+
+.box p{
+position: relative;
+padding-left: 100px;
+color: white;
+font-size: 30px;
+}
+
+.box input[type="submit"]
+{
+  position:relative;
+border: none;
+border-radius: 5px;
+padding: 10px;
+  color: white;
+  font-size: 25px;
+  background-color: red;
+  left: 220px;
+}
+.box input[type="submit"]:hover{
+  background-color:green;
+  font-size: 30px;
+  cursor: pointer;
+}
